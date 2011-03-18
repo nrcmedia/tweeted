@@ -1,0 +1,55 @@
+.tweeted-arrow {
+	background: url(images/dark-arrow.png) top left no-repeat !important;
+}
+
+.tweeted-main {
+	background: #A7A7A7 url(images/dark-bg.png) bottom left repeat-x !important;
+	border: 3px solid #A7A7A7 !important;
+}
+
+.tweeted-info {
+	border-bottom: 4px double #a3a3a3 !important;
+}
+
+.tweeted-info h2, .tweeted-info h2 a {
+	color: #9ac306 !important;
+	text-shadow: 1px 1px 0 #000 !important;
+}
+
+.tweeted-info h3 {
+	color: #fff !important;
+	text-shadow: 1px 1px 0 #000 !important;
+}
+
+.tweeted-tweet p {
+	color: #fff !important;
+	text-shadow: 1px 1px 0 #000 !important;
+}
+
+.tweeted-tweet a {
+	color: #9ac306 !important;
+}
+
+.tweeted-tweet a:hover {
+	color: #9ac306 !important;
+}
+
+.tweeted-tweet span.props a {
+	color: #fff !important;
+}
+
+.tweeted-tweet span.props a:hover {
+	color: #fff !important;
+}
+
+.tweeted-tweet span {
+	color: #fff !important;
+}
+
+.tweeted-tweet span a {
+	color: #fff !important;
+}
+
+.tweeted-tweet span a:hover {
+	color: #fff !important;
+}

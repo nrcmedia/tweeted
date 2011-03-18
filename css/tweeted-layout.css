@@ -1,0 +1,84 @@
+.tweeted {
+	padding: 2px !important;
+}
+
+.tweeted-arrow {
+	position: relative; 
+	left: 80px !important;
+	top: 1px !important;
+	width: 60px !important;
+	height: 30px !important;
+	margin:0 !important;
+	padding:0 !important;
+}
+
+.tweeted-main { 
+	padding: 10px 23px 23px; !important;
+	/** CSS3 Browsers Only **/
+	-moz-border-radius: 3px !important;
+	-webkit-border-radius: 3px !important;
+}
+
+.tweeted-info { 
+	height: 55px !important;
+}
+
+.tweeted-info img {
+	width: 48px !important;
+	height: 48px !important;
+	float: left !important;
+	margin: 0 10px 0 0 !important;
+	border: none !important;
+}
+
+.tweeted-info h2 {
+	clear: none !important;
+	line-height: 1 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	border-bottom: none !important;
+}
+
+.tweeted-info h3 {
+	clear: none !important;
+	line-height: 0 !important;
+	font-size: 1.2em !important;
+	margin: 0;
+	padding: 14px 0 0 0;
+	border-bottom: none !important;
+}
+
+.tweeted-tweet {
+	clear: both !important;
+}
+
+.tweeted-tweet p {
+	font-size: 1.2em !important;
+}
+
+.tweeted-tweet span.props {
+	float: left !important;
+	font-size: .8em !important;
+	height: 16px !important;
+	margin: 0 !important;
+	padding: 4px 0 0 !important;
+}
+
+.tweeted-tweet span.props a:hover {
+	text-decoration: underline !important;
+}
+
+.tweeted-tweet span {
+	float: right !important;
+	font-size: .8em !important;
+	text-decoration: none !important;
+	padding: 4px 0 0 !important;
+}
+
+.tweeted-tweet span a {
+	text-decoration: none !important;
+}
+
+.tweeted-tweet span a:hover {
+	text-decoration: underline !important;
+}
