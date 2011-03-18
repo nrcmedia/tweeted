@@ -133,7 +133,8 @@ class Tweeted_Frontend extends Tweeted {
 			$twitter_ixr = new IXR_Tweeted('http://twitter.com/statuses/show/'.$status_id.'.json');
 			$twitter_ixr->debug = false;	//	only set this to true when debuging Twitter Connection!
 			if ( !$twitter_ixr->query('GET'))
-			    die('Something Went Wrong: '.$twitter_ixr->getErrorCode().' : '.$twitter_ixr->getErrorMessage());
+				return "<a href='http://twitter.com/statuses/show/'.$status_id .'>Tweet</a>";
+//			    die('Something Went Wrong: '.$twitter_ixr->getErrorCode().' : '.$twitter_ixr->getErrorMessage());
 			/** Store the data. **/	
 			$twitter_ixr_data = $twitter_ixr->message;
 			/** Close the IXR connection **/
