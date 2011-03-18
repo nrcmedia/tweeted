@@ -93,19 +93,14 @@ class Tweeted_Frontend extends Tweeted {
 	 */
 	function get_tweeted($attrib, $content = null, $code = null) {
 		
-		/** Get the status url - Only need the numbers after the last '/' **/
-		$data = explode("/", $content); 
-		
-		/** user enter wrong url. must be in the form of 'http://twitter.com/[USER]/status/[NUMBER}'  **/
-		if ( $data[4] != "status" && $data[4] != "statuses" )		
-			return;
-			
-		/** only work if the last part of the string is a number! **/
-		if ( !is_numeric($data[5]) )	
-			return;
+		preg_match_all("/(\d+)/x", $content, $status);		
 
-		/** process & return data **/
-		return $this->show_status($data[5]);
+		if(intval($status[0][0]) > 0) {
+			/** process & return data **/
+			return $this->show_status($status[0][0]);
+		}
+		else
+			return;	
 	}
 	
 	/**
